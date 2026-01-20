@@ -1,0 +1,33 @@
+name: expense_tracker
+description: A simple expense tracker app built with Flutter.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.3.5          # 升级到最新稳定版
+  path: ^1.8.3            
+  path_provider: ^2.1.2    # 升级版本解决兼容问题
+  provider: ^6.1.1        
+  fl_chart: ^0.68.0        # 升级图表库版本
+  intl: ^0.19.0            # 升级国际化库版本
+  hive: ^2.2.3          # 同步升级hive核心库
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0   
+  hive_generator: ^2.0.1   # 已兼容Dart 3.x，无需修改
+  build_runner: ^2.4.8
+  # 可选：添加 flutter_gen 提升资源管理体验（非必需）
+  # flutter_gen_runner: ^5.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
