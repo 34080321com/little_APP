@@ -56,8 +56,8 @@ app.*.map.json
 /ios/Runner.xcworkspace
 /ios/Runner.xcarchive
 
-# 【新增】Web 构建产物
-/web/build
+## 【新增】Web 构建产物
+#/web/build
 
 # 【新增】Flutter 敏感密钥文件
 key.jks
